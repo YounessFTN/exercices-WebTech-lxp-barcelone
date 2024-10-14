@@ -1,22 +1,12 @@
-import { Ex1 } from "./components/exercices/cart";
-
-import { ProductGallery } from "./components/exercices/ProductGallery";
+import { ProductGallery } from "./components/exercices/ProductGallery"; // Si c'est un tableau de produits, assure-toi qu'il soit bien importé comme tel
 
 export function Home() {
+  // Assurons-nous que ProductGallery est un tableau de produits
+
   return (
     <>
-      <ProductGallery />
-      <section className="p-2 flex-wrap flex gap-5 justify-center">
-        <Ex1 />
-        <Ex1 />
-        <Ex1 />
-        <Ex1 />
-        <Ex1 />
-        <Ex1 />
-        <Ex1 />
-        <Ex1 />
-        <Ex1 />
-      </section>
+      <ProductGallery />{" "}
+      {/* Ce composant affiche peut-être quelque chose de visuel */}
     </>
   );
 }

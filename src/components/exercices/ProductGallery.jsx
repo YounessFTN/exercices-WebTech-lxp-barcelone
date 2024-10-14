@@ -1,19 +1,21 @@
+import { productList } from "../../data/data.jsx";
+import { Ex1 } from "./cart.jsx";
+
 export function ProductGallery() {
-  let count = 0;
-  const increment = () => {
-    count++;
-    console.log(count);
-  };
+  console.log(productList); // Vérifier que productList est bien défini
+
   return (
-    <div className="flex flex-col justify-center items-center h-screen column">
-      <h1 className="text-3xl font-bold">learn UseState</h1>
-      <p className="text-2xl">Counter: {count}</p>
-      <button
-        className="bg-gray-500 hover:bg-gray-700 text-white  py-2 px-4 rounded"
-        onClick={increment}
-      >
-        Increment
-      </button>
-    </div>
+    <section className="p-2 flex-wrap flex gap-5 justify-center">
+      {productList.map((product) => {
+        return (
+          <Ex1
+            key={product.id}
+            img={product.image} // Assurez-vous que vous utilisez le bon champ pour l'image
+            name={product.name}
+            price={product.price}
+          />
+        );
+      })}
+    </section>
   );
 }
