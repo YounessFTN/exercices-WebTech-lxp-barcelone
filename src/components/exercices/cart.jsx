@@ -1,4 +1,4 @@
-export function Ex1({ img, name, price }) {
+export function Ex1({ img, name, price, ButtonAddToBasket }) {
   // Extraire les tailles et les couleurs disponibles
 
   return (
@@ -28,7 +28,10 @@ export function Ex1({ img, name, price }) {
       </section>
 
       <footer className="p-3">
-        <button className="bg-black hover:bg-slate-600 text-white font-bold py-2 px-4 rounded w-full">
+        <button
+          onClick={ButtonAddToBasket}
+          className="bg-black hover:bg-slate-600 text-white font-bold py-2 px-4 rounded w-full"
+        >
           Add to Cart
         </button>
       </footer>
