@@ -104,16 +104,6 @@ export function NavBar() {
 
                       <dl className="mt-0.5 space-y-px text-[10px] text-gray-600">
                         <div>
-                          <dt className="inline">Size: </dt>
-                          <dd className="inline">{product.size}</dd>
-                        </div>
-
-                        <div>
-                          <dt className="inline">Color: </dt>
-                          <dd className="inline">{product.color}</dd>
-                        </div>
-
-                        <div>
                           <dd className="text-xs text-black">
                             {product.price} €
                           </dd>
