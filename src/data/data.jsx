@@ -6,8 +6,8 @@ export const productList = [
     price: 120, // Prix en nombre
     colors: { black: true, white: false, red: true },
     image: [
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5bc5bc81-9e76-444f-93ce-c7e1446f17af/AIR+MAX+DN.png",
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/626acfff-8d4c-4088-90cb-d5f6d1fe15d4/AIR+MAX+DN.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/80c5a970-04aa-4223-85fb-4b4ddd6fdfa7/NIKE+AIR+MAX+PLUS.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bb3bbc40-fd1d-4b51-9154-296ad23f77ca/NIKE+AIR+MAX+PLUS.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b8e2890-2731-45c0-ab25-fb90cd61e20c/AIR+MAX+DN.png",
     ],
     sizes: {
@@ -35,8 +35,8 @@ export const productList = [
     price: 150, // Prix en nombre
     colors: { black: true, white: true, red: false },
     image: [
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5bc5bc81-9e76-444f-93ce-c7e1446f17af/AIR+MAX+DN.png",
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/626acfff-8d4c-4088-90cb-d5f6d1fe15d4/AIR+MAX+DN.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7aa19635-bead-4e21-852c-4269d51be7bc/W+NIKE+AIR+MAX+PORTAL.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/85590ac5-333e-49f8-8f6f-f62d3878b79a/W+NIKE+AIR+MAX+PORTAL.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b8e2890-2731-45c0-ab25-fb90cd61e20c/AIR+MAX+DN.png",
     ],
     sizes: {
@@ -64,8 +64,8 @@ export const productList = [
     price: 180, // Prix en nombre
     colors: { black: true, white: true, red: true },
     image: [
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5bc5bc81-9e76-444f-93ce-c7e1446f17af/AIR+MAX+DN.png",
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/626acfff-8d4c-4088-90cb-d5f6d1fe15d4/AIR+MAX+DN.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/tvslkya4tomejkegxkln/WMNS+AIR+MAX+PLUS+TN+SE.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/udbot6fo3npllwgn8e6c/WMNS+AIR+MAX+PLUS+TN+SE.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b8e2890-2731-45c0-ab25-fb90cd61e20c/AIR+MAX+DN.png",
     ],
     sizes: {
@@ -93,8 +93,8 @@ export const productList = [
     price: 130, // Prix en nombre
     colors: { black: true, white: true, red: true },
     image: [
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5bc5bc81-9e76-444f-93ce-c7e1446f17af/AIR+MAX+DN.png",
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/626acfff-8d4c-4088-90cb-d5f6d1fe15d4/AIR+MAX+DN.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/c9a377f2-8561-4ada-8abd-19fc7710f4bd/AIR+MAX+90+%28GS%29.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/e1828126-ac1b-4dfc-b15f-7ae39a72ec69/AIR+MAX+90+%28GS%29.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b8e2890-2731-45c0-ab25-fb90cd61e20c/AIR+MAX+DN.png",
     ],
     sizes: {
@@ -115,8 +115,8 @@ export const productList = [
     price: 180, // Prix en nombre
     colors: { black: true, white: true, red: true },
     image: [
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5bc5bc81-9e76-444f-93ce-c7e1446f17af/AIR+MAX+DN.png",
-      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/626acfff-8d4c-4088-90cb-d5f6d1fe15d4/AIR+MAX+DN.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4873366f-daad-4d07-88d4-a4e6f393cda7/NIKE+AIR+MAX+PLUS+GS.png",
+      "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6ec19ce6-3bc3-4acf-96b3-e9cd3cec930f/NIKE+AIR+MAX+PLUS+GS.png",
       "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9b8e2890-2731-45c0-ab25-fb90cd61e20c/AIR+MAX+DN.png",
     ],
     sizes: {
