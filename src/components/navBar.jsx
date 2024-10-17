@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
-import { basketList } from "../data/basketList.jsx";
+import { useBasket } from "./context/BasketContext";
 
 export function NavBar() {
+  const { basket } = useBasket();
   const [totalPrice, setTotalPrice] = useState(0);
 
   useEffect(() => {
-    const price = basketList.reduce((sum, product) => sum + product.price, 0);
+    const price = basket.reduce((sum, product) => sum + product.price, 0);
     setTotalPrice(price);
-  }, [basketList]);
+  }, [basket]);
 
   return (
     <nav className="z-50 sticky top-0 b">
@@ -76,7 +77,7 @@ export function NavBar() {
                   />
                 </svg>
                 <span className="badge badge-sm indicator-item">
-                  {basketList.length}
+                  {basket.length}
                 </span>
               </div>
             </div>
@@ -85,7 +86,7 @@ export function NavBar() {
               className="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow"
             >
               <ul className="p-4 space-y-4 max-h-60 overflow-y-auto">
-                {basketList.map((product, index) => (
+                {basket.map((product, index) => (
                   <li
                     key={`${product.id}-${index}`}
                     className="flex items-center gap-4"
@@ -123,13 +124,11 @@ export function NavBar() {
                 ))}
               </ul>
               <div className="card-body">
-                <span className="text-lg font-bold">
-                  {basketList.length} Items
-                </span>
+                <span className="text-lg font-bold">{basket.length} Items</span>
                 <span className="text-red-500">Subtotal: {totalPrice} €</span>
                 <div className="card-actions">
                   <button className="btn btn-block">
-                    View cart({basketList.length})
+                    View cart({basket.length})
                   </button>
                 </div>
               </div>

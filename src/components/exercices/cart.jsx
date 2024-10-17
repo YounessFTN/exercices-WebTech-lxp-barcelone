@@ -1,4 +1,4 @@
-export function Ex1({ img, name, price, ButtonAddToBasket }) {
+export function Cart({ img, name, price, ButtonAddToBasket }) {
   // Extraire les tailles et les couleurs disponibles
 
   return (

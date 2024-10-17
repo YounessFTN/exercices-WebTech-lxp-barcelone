@@ -1,7 +1,6 @@
-import { createContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 
-// Créez le contexte du panier
-export const BasketContext = createContext();
+const BasketContext = createContext();
 
 export function BasketProvider({ children }) {
   const [basket, setBasket] = useState([]);
@@ -11,4 +10,8 @@ export function BasketProvider({ children }) {
       {children}
     </BasketContext.Provider>
   );
+}
+
+export function useBasket() {
+  return useContext(BasketContext);
 }
